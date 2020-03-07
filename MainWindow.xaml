@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="PersonaId:" HorizontalAlignment="Left" Margin="129,68,0,0" VerticalAlignment="Top" Width="122" FontSize="24"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="129,115,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="PersonaIdtextBox" HorizontalAlignment="Left" Margin="256,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="30"/>
+        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Margin="256,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="34"/>
+        <Button x:Name="BuscarButton" Content="Buscar" HorizontalAlignment="Left" Margin="430,77,0,0" VerticalAlignment="Top" Height="30" Width="56" Click="BuscarButton_Click"/>
+        <Button x:Name="NuevoButton" Content="Nuevo" HorizontalAlignment="Left" Margin="141,0,0,0" VerticalAlignment="Center" Height="42" Width="69" Click="NuevoButton_Click"/>
+        <Button x:Name="GuardarButton" Content="Guardar" HorizontalAlignment="Left" Margin="256,0,0,0" VerticalAlignment="Center" Height="41" Width="64" Click="GuardarButton_Click"/>
+        <Button x:Name="EliminarButton" Content="Eliminar" HorizontalAlignment="Left" Margin="355,0,0,0" VerticalAlignment="Center" Height="41" Width="71" Click="EliminarButton_Click"/>
+        <Button x:Name="ConsultarButton" Content="Consultar" HorizontalAlignment="Left" Margin="443,136,0,0" VerticalAlignment="Top" Height="135" Width="198"/>
 
     </Grid>
 </Window>
